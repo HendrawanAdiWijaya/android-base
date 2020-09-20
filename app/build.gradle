@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.hendrawanwijaya'
@@ -8,7 +8,6 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "one.hendra.androidbase"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
