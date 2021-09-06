@@ -8,6 +8,9 @@ project.afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
+                groupId = 'com.github.hendrawanwijaya'
+                artifactId = 'android-base'
+                version = '1.0'
             }
         }
     }
